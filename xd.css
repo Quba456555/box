@@ -1,0 +1,28 @@
+body {
+  min-height: 800px;
+  display: flex;
+  border: 8px solid black;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.box {
+  background-color: rgb(60, 0, 255);
+  height: 200px;
+  width: 200px;
+  font-size: 40px;
+}
+
+.box img {
+  width: 150px;
+  height: 100px;
+}
+
+.box p {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #fff;
+}
